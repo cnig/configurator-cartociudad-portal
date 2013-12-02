@@ -15,7 +15,8 @@
     </request>
     <results>
         <locationInfo>nombreEntidad/nombre</locationInfo>
-        <location>posicionEspacial/Point/pos</location>
+        <locationInfo headChar="(" trailChar=")">tipoEntidad/tipo</locationInfo>
+        <location>posicionEspacial/boundedBy/Envelope/pos</location>
         <srs attribute="srsName">posicionEspacial/boundedBy/Envelope</srs>
         <outputText>nombreEntidad/nombre</outputText>
         <displayInfo>nombreEntidad/nombre</displayInfo>
@@ -60,7 +61,7 @@
             <label>Posicion Espacial</label>
             <detailslevel>
                 <label>Posicion</label>
-                <path>posicionEspacial/boudedBy/Envelope/pos</path>
+                <path>posicionEspacial/boundedBy/Envelope/pos</path>
             </detailslevel>
             <detailslevel>
                 <label>SRS</label>
