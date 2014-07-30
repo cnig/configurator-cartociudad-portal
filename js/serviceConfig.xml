@@ -10,7 +10,7 @@
         <typename>app:Entidad</typename>
         <filter><![CDATA[<Filter xmlns:app="http://www.deegree.org/app"><PropertyIsLike matchCase="false" wildCard="*" singleChar="?" escapeChar="!"><PropertyName>{{prop_name}}</PropertyName><Literal>*{{name}}*</Literal></PropertyIsLike></Filter>]]></filter>
         <search>
-            <option id="name" label="Nombre">nombreEntidad/nombre</option>
+            <option id="name" label="Name">nombreEntidad/nombre</option>
         </search>
     </request>
     <results>
